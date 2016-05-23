@@ -1,0 +1,31 @@
+Xenny was a teacher and his class consisted ofN boys and N girls. He took all his students to the playground and asked them to 
+stand in a straight line. The boys and the girls formed a perfect line, but Xenny seemed unhappy. 
+He wanted them to form an alternating sequence of boys and girls, i.e., he wanted that after a boy, 
+there should be a girl in the line, and vice-versa.
+
+In order to form an alternating sequence, a boy and a girl could swap their positions. 
+Given the original sequence in which the boys and girls were standing, find the minimum number of swaps required to 
+form an alternating sequence.
+
+Note: An alternating sequence can start either with a boy or a girl.
+
+INPUT:---------------
+First line of input consists of a natural number T- the number of testcases.
+T testcases follow. 
+
+For each testcase:
+First line consists of a single integer N- the number of boys, and the number of girls.
+Second line consists of a string of length 2N, representing the original sequence.
+In this string, a boy is represented by uppercase character B and a girl by G.
+
+OUTPUT:--------------
+For each testcase, print the minimum number of swaps required to get an alternating sequence on a new line.
+
+CONSTRAINTS:------------
+1 <= T <=5
+1 <= N <= 10^6
+
+EXPLANATION:----
+The first boy from left can swap his position with the first girl from right to get the sequence:
+GBGB
+This is an alternating sequence and it was obtained using 1 swap.
